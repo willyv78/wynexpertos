@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Material Design Bootstrap</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <!-- Your custom styles (optional) -->
+    <link href="css/style.css" rel="stylesheet">
+    <style type="text/css">
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        min-height:100vh;
+    }
+    
+    .flex-menu {
+        display: flex;
+        margin-top: 1.225rem;
+    }
+    
+    .flex-menu li:not(:last-child) {
+        margin-right: 14px;
+    }
+    
+    footer {
+        padding: 2.5rem 0;
+    }
+    
+    footer a,
+    footer a:hover {
+        color: #292b2c;
+    }
+    
+    footer h5 {
+        display: inline;
+        margin-right: 14px;
+    }
+    
+    .social-menu {
+        display: inline-flex;
+        margin-bottom: 0;
+    }
+    
+    .social-menu li:not(:last-child) {
+        margin-right: 10px;
+    }
+    </style>
+</head>
+
+<body class="mdb-skin">
+    
+    <!--Navigation & Intro-->
+    <header>
+        <nav class="navbar fixed-top navbar-toggleable-md scrolling-navbar navbar-dark mdb-color lighten-3">
+            <div class="container">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img src="img/logoColor.png" class="d-inline-block align-top" alt="Logo W&N Expertos en Soluciones">
+                </a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">Pricing</a>
+                        </li>
+                        <li class="nav-item btn-group">
+                            <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <a class="dropdown-item">Action</a>
+                                <a class="dropdown-item">Another action</a>
+                                <a class="dropdown-item">Something else here</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav nav-flex-icons">
+                        <li class="nav-item">
+                            <a class="nav-link"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"><i class="fa fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--Mask-->
+        <div class="view hm-black-strong">
+            <div class="full-bg-img flex-center">
+                <div class="container">
+                    <div class="white-text text-center wow fadeInUp">
+                        <h2>This Navbar isn't fixed</h2>
+                        <h5>When you scroll down it will disappear</h5>
+                        <br>
+                        <p>Full page intro with background image will be always displayed in full screen mode, regardless of device </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/.Mask-->
+    </header>
+    <!--Navigation & Intro-->
+    <!-- Streak o mensaje entre comillas -->
+    <div class="streak streak-lg streak-photo" style="background-image:url('https://mdbootstrap.com/img/Photos/Horizontal/Things/full%20page/img%20(6).jpg')">
+        <div class="flex-center white-text pattern-1">
+            <ul>
+                <li><h2 class="h2-responsive wow fadeIn"><i class="fa fa-quote-left" aria-hidden="true"></i> The people who are crazy enough to think they can change the world are the ones who do. <i class="fa fa-quote-right" aria-hidden="true"></i></h2></li>
+                <li><h5 class="text-center font-italic wow fadeIn" data-wow-delay="0.2s">~ Steve Jobs</h5></li>
+            </ul>
+        </div>
+    </div>
+    <!-- Fin del Streak -->
+
+    <!-- Inicio del intro -->
+    <!--Mask-->
+    <div class="view hm-black-strong">
+        <div class="full-bg-img flex-center">
+            <div class="container">
+                <div class="row" id="home">
+
+                    <!--First column-->
+                    <div class="col-lg-6">
+                        <div class="description">
+                            <h2 class="h2-responsive wow fadeInLeft">Make purchases with our app </h2>
+                            <hr class="hr-dark">
+                            <p class="wow fadeInLeft" data-wow-delay="0.4s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem repellendus quasi fuga nesciunt dolorum nulla magnam veniam sapiente, fugiat! Commodi sequi non animi ea dolor molestiae, quisquam iste, maiores. Nulla.</p>
+                            <br>
+                            <a class="btn btn-white-outline btn-lg wow fadeInLeft" data-wow-delay="0.7s">Learn more</a>
+                            <a class="btn btn-white-outline btn-lg wow fadeInLeft" data-wow-delay="0.7s">Download <i class="fa fa-android left right" aria-hidden="true"></i>
+                        <i class="fa fa-apple left" aria-hidden="true"></i>
+                        <i class="fa fa-windows" aria-hidden="true"></i></a>
+
+                        </div>
+                    </div>
+                    <!--/.First column-->
+
+                    <!--Second column-->
+                    <div class="col-lg-4 offset-lg-1 flex-center">
+                        <!--Form-->
+                        <img src="https://mdbootstrap.com/img/Mockups/Transparent/Small/iphone10.png" alt="" class="img-fluid wow fadeInRight" id="app-mockup">
+                        <!--/.Form-->
+                    </div>
+                    <!--/Second column-->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/.Mask-->
+    <!-- Fin del intro -->
+
+    <!--Footer-->
+    <footer class="page-footer center-on-small-only">
+
+        <!--Footer Links-->
+        <div class="container-fluid">
+            <div class="row">
+
+                <!--First column-->
+                <div class="col-md-3 offset-md-1">
+                    <h5 class="title">Footer Content</h5>
+                    <p>Here you can use rows and columns here to organize your footer content.</p>
+                </div>
+                <!--/.First column-->
+
+                <hr class="hidden-md-up">
+
+                <!--Second column-->
+                <div class="col-md-2 offset-md-1">
+                    <h5 class="title">Links</h5>
+                    <ul>
+                        <li><a href="#!">Link 1</a></li>
+                        <li><a href="#!">Link 2</a></li>
+                        <li><a href="#!">Link 3</a></li>
+                        <li><a href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+                <!--/.Second column-->
+
+                <hr class="hidden-md-up">
+
+                <!--Third column-->
+                <div class="col-md-2">
+                    <h5 class="title">Links</h5>
+                    <ul>
+                        <li><a href="#!">Link 1</a></li>
+                        <li><a href="#!">Link 2</a></li>
+                        <li><a href="#!">Link 3</a></li>
+                        <li><a href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+                <!--/.Third column-->
+
+                <hr class="hidden-md-up">
+
+                <!--Fourth column-->
+                <div class="col-md-2">
+                    <h5 class="title">Links</h5>
+                    <ul>
+                        <li><a href="#!">Link 1</a></li>
+                        <li><a href="#!">Link 2</a></li>
+                        <li><a href="#!">Link 3</a></li>
+                        <li><a href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+                <!--/.Fourth column-->
+
+            </div>
+        </div>
+        <!--/.Footer Links-->
+
+        <hr>
+
+        <!--Call to action-->
+        <div class="call-to-action">
+            <ul>
+                <li>
+                    <h5>Register for free</h5></li>
+                <li><a href="" class="btn btn-danger">Sign up!</a></li>
+            </ul>
+        </div>
+        <!--/.Call to action-->
+
+        <hr>
+
+        <!--Social buttons-->
+        <div class="social-section">
+            <ul>
+                <li><a class="btn-floating btn-small btn-fb"><i class="fa fa-facebook"> </i></a></li>
+                <li><a class="btn-floating btn-small btn-tw"><i class="fa fa-twitter"> </i></a></li>
+                <li><a class="btn-floating btn-small btn-gplus"><i class="fa fa-google-plus"> </i></a></li>
+                <li><a class="btn-floating btn-small btn-li"><i class="fa fa-linkedin"> </i></a></li>
+                <li><a class="btn-floating btn-small btn-git"><i class="fa fa-github"> </i></a></li>
+                <li><a class="btn-floating btn-small btn-pin"><i class="fa fa-pinterest"> </i></a></li>
+                <li><a class="btn-floating btn-small btn-ins"><i class="fa fa-instagram"> </i></a></li>
+            </ul>
+        </div>
+        <!--/.Social buttons-->
+
+        <!--Copyright-->
+        <div class="footer-copyright">
+            <div class="container-fluid">
+                © 2015 Copyright: <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>
+
+            </div>
+        </div>
+        <!--/.Copyright-->
+    </footer>
+    <!--/.Footer-->
+    
+
+
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+</body>
+
+</html>

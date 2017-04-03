@@ -1,0 +1,90 @@
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height:100vh;
+}
+
+.flex-menu {
+    display: flex;
+    margin-top: 1.225rem;
+}
+
+.flex-menu li:not(:last-child) {
+    margin-right: 14px;
+}
+
+footer {
+    padding: 2.5rem 0 0 0;
+}
+
+footer a,
+footer a:hover {
+    color: #292b2c;
+}
+
+footer h5 {
+    display: inline;
+    margin-right: 14px;
+}
+
+.social-menu {
+    display: inline-flex;
+    margin-bottom: 0;
+}
+
+.social-menu li:not(:last-child) {
+    margin-right: 10px;
+}
+/* Navigation*/
+.navbar {
+    background-color: #4285F4 !important;
+}
+.navbar-brand img {
+    width: 20%;
+}
+
+
+/*Intro*/
+.view {
+    background: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(54).jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: auto;
+    width: 100%;
+}
+
+@media (max-width: 991px){
+    .carousel {
+        top: 95px;
+    }
+    #servicios{
+        margin-top: 115px !important;
+    }
+}
+
+@media (min-width: 992px){
+    .carousel {
+        top: 85px;
+    }
+}
+.collapse.in {
+    display: block !important;
+}
+#servicios{
+    margin-top: 90px;
+}
+.fa-servicios{
+    font-size: 10rem !important;
+    margin: auto;
+}
+
+
