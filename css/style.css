@@ -61,6 +61,15 @@ footer h5 {
     margin: auto;
     width: 100%;
 }
+.view-nosotros {
+    background: url("../img/nosotros/bannerLogoW&N.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: auto;
+    width: 100%;
+}
 
 @media (max-width: 991px){
     .carousel {
@@ -85,6 +94,12 @@ footer h5 {
 .fa-servicios{
     font-size: 10rem !important;
     margin: auto;
+}
+.card-img-overlay{
+    position: relative !important;
+}
+#nosotros{
+    margin-top: 90px;
 }
 
 
