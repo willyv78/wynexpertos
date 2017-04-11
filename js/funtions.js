@@ -36,7 +36,7 @@ function enviarForm(argument) {
         data:"nom="+nom+"&email="+email+"&tel="+tel+"&men="+men,
         success: function(datos){
           if(datos !== ''){
-            alert(datos);
+            // alert(datos);
             swal({
                 title: "Felicidades!",
                 text: "El mensaje a sido envíado correctamente!\nPronto nos comunicaremos con usted.",
